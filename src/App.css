@@ -23,9 +23,6 @@
   font-size: calc(30px + 2vmin);
   color: #f2e6ce;
   font-family: Garamond, serif;
-  /* background-image: url(assets/main/hedge-bg.jpg);
-  background-blend-mode: overlay;
-  background-color: rgba(red, green, blue, .2); */
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('assets/main/hedge-bg.jpg');
 }
 
@@ -35,12 +32,14 @@
 
 .Main {
   min-height: 100vh;
+  color: #445a09;
+  margin-top: 15vh;
 }
 
 .Border {
   min-height: 10vh;
   background-image: url(assets/main/leaf_pattern.png);
-  background-size: 30vh;
+  background-size: 40vh;
   background-repeat: repeat-x;
 }
 
