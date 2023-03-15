@@ -1,25 +1,26 @@
-import logo from './logo.svg';
 import './App.css';
+import Footer from './Footer'
+import Navbar from './Navbar';
 
 function App() {
   return (
     <div className="App">
+      <Navbar></Navbar>
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <div className="Logo">hedgemore</div>
+        <div> Finding value beyond the hedge. </div>
       </header>
+      <div className="Border"></div>
+      <div className="Main">
+        <div className="About-card-left">
+          
+        </div>
+      </div>
+      <div className="Border"></div>
+      <Footer></Footer>
     </div>
   );
+  
 }
 
 export default App;
