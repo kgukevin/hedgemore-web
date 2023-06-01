@@ -10,6 +10,7 @@ function App() {
       <header className="App-header">
         <div className="Logo">hedgemore</div>
         <div> Finding value beyond the hedge. </div>
+        <div className='Tagline'> Dealing with market risk beyond hedging </div>
       </header>
       <div className="Border"></div>
       <div className="Main">

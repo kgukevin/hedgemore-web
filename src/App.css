@@ -26,6 +26,10 @@
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('assets/main/hedge-bg.jpg');
 }
 
+.Tagline {
+  font-size: calc(20px + 2vmin);
+}
+
 .App-link {
   color: #445a09;
 }
