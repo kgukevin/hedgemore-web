@@ -27,7 +27,10 @@
 }
 
 .Tagline {
-  font-size: calc(20px + 2vmin);
+  font-size: calc(7px + 2vmin);
+  opacity: .75;
+  font-weight: 100;
+  font-family: 'Trebuchet MS';
 }
 
 .App-link {
